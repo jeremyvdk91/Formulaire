@@ -1,0 +1,95 @@
+
+
+body{
+    background-color: azure;
+}
+.container{
+    position: relative;
+    width: 750px;
+    height: 400px;
+    margin: 50px auto;
+}
+.container img{
+    width: 750px;
+    height: 500px;
+    border-radius: 20px;
+ }
+ form {
+    margin-top:50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+  
+ ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+ form li  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+ label {
+    
+    text-align:right;
+    width: 150px;
+    font-weight: bold;
+  }
+ 
+ 
+
+input{
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    }
+
+select{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: aliceblue;
+    display: block;
+    margin: 0 auto ;
+    width: 60%;
+}
+
+
+  
+button {
+    width: 200px;
+    padding: 10px;
+    background-color: #272592;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+   
+}
+
+
+button:hover {
+    background-color: #0677f1;
+}
+  
